@@ -1,8 +1,8 @@
 {
   "name": "GJTMineModule",
   "version": "0.1.0",
-  "summary": "A short description of GJTMineModule.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Gojito 的个人中心模块",
+  "description": "Gojito 的个人中心模块，包括设置、版本号等页面",
   "homepage": "https://github.com/zjh171/GJTMineModule",
   "license": {
     "type": "MIT",
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "GJTMineModule/Classes/**/*"
+  "source_files": "GJTMineModule/Classes/**/*",
+  "dependencies": {
+    "GJTMvvmKit": [
+
+    ]
+  }
 }

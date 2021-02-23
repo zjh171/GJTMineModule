@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "GJTMineModule.h"
+#import "GJTMineViewController.h"
 
 FOUNDATION_EXPORT double GJTMineModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char GJTMineModuleVersionString[];

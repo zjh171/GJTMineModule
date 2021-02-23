@@ -1,6 +1,16 @@
 PODS:
-  - GJTMineModule (0.1.0)
+  - GJTAdditionKit (0.0.1)
+  - GJTControlsKit (0.0.5)
+  - GJTMineModule (0.1.0):
+    - GJTMvvmKit
+  - GJTMvvmKit (0.0.1):
+    - GJTAdditionKit
+    - GJTControlsKit
+    - Masonry
+    - ReactiveObjC
   - Kiwi (3.0.0)
+  - Masonry (1.1.0)
+  - ReactiveObjC (3.1.1)
 
 DEPENDENCIES:
   - GJTMineModule (from `../`)
@@ -8,15 +18,25 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - GJTAdditionKit
+    - GJTControlsKit
+    - GJTMvvmKit
     - Kiwi
+    - Masonry
+    - ReactiveObjC
 
 EXTERNAL SOURCES:
   GJTMineModule:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GJTMineModule: 11a9b1cffa2fbd293f28579ba7968045e1b32aee
+  GJTAdditionKit: 270ecbae42c1dacc580689915b09643d12cff85d
+  GJTControlsKit: 6a627646093c9f118415a47117e25d4f1717ac84
+  GJTMineModule: 786229b23ce1c8f5a6f4f65ab4a886c3f1213c9d
+  GJTMvvmKit: 8cc4a50038704af9c09ba8f14bc1fefef6d16d25
   Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
 PODFILE CHECKSUM: 01f32c760fa8c01628dcb0aaff44876a08784bab
 
