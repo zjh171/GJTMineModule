@@ -1,0 +1,23 @@
+PODS:
+  - GJTMineModule (0.1.0)
+  - Kiwi (3.0.0)
+
+DEPENDENCIES:
+  - GJTMineModule (from `../`)
+  - Kiwi
+
+SPEC REPOS:
+  trunk:
+    - Kiwi
+
+EXTERNAL SOURCES:
+  GJTMineModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GJTMineModule: 11a9b1cffa2fbd293f28579ba7968045e1b32aee
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+
+PODFILE CHECKSUM: 01f32c760fa8c01628dcb0aaff44876a08784bab
+
+COCOAPODS: 1.10.1

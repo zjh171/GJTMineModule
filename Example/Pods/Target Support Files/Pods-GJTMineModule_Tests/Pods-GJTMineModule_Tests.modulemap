@@ -1,0 +1,6 @@
+framework module Pods_GJTMineModule_Tests {
+  umbrella header "Pods-GJTMineModule_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

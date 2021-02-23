@@ -1,0 +1,6 @@
+framework module Pods_GJTMineModule_Example {
+  umbrella header "Pods-GJTMineModule_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
